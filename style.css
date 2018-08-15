@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Sunflower:300");
+body {
+  text-align: center;
+  color: #303f9f;
+  background: #e8f5e9;
+  font-family: "Sunflower", sans-serif;
+}
+svg {
+  background: #99f2fd;
+  box-shadow: 2px 2px 8px 1px #1976d2;
+}
+g {
+  stroke: #303f9f;
+  font-size: 0.9em;
+  font-family: "Sunflower", sans-serif;
+}
+.color {
+  stroke: black;
+  rx: 5px;
+}
+.green {
+  fill: green;
+}
+.red {
+  fill: red;
+}
+.bar:hover {
+  fill: yellow;
+}
+#tooltip {
+  display: none;
+  position: absolute;
+  background: #b2ebf2;
+  border: #ab47bc 3px solid;
+  border-color: #80deea;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px 1px #448aff;
+}
